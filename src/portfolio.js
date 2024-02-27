@@ -38,6 +38,7 @@ const socialMediaLinks = {
   github: "https://github.com/beme248",
   linkedin: "https://www.linkedin.com/in/bettina-messmer-627722115",
   gmail: "bettina.messmer@epfl.ch",
+  scholar: "https://scholar.google.com/citations?user=XS_VFksAAAAJ",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
