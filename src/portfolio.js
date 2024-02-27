@@ -21,12 +21,14 @@ const illustration = {
 
 const greeting = {
   username: "Bettina Messmer",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  title: "Hi all, I'm Bettina",
+  subTitle: [emoji(
+    "A passionate second-year machine learning Ph.D. student 🤖"
   ),
+      emoji('My research focuses on advancing the optimization and resource efficiency of deep learning architectures, supervised by Prof. Martin Jaggi in the laboratory of Machine Learning and Optimization.'),
+    emoji('I have extensive software engineering experience in data processing and managing platforms 👩‍💻.')],
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

@@ -12,6 +12,12 @@
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
+@font-face {
+  font-family: "Kodemono";
+  src: local("Kodemono"),
+  url("./assets/fonts/KodeMono-VariableFont_wght.ttf") format("woff");
+  font-display: swap;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
