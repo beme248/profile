@@ -45,6 +45,10 @@
   text-decoration: none;
 }
 
+a {
+  color: $buttonColor !important;
+}
+
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
