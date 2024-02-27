@@ -8,6 +8,18 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
+      {socialMediaLinks.scholar ? (
+          <a
+              href={socialMediaLinks.scholar}
+              className="icon-button scholar"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-google-scholar"></i>
+            <span></span>
+          </a>
+      ) : null}
+
       {socialMediaLinks.github ? (
           <a
               href={socialMediaLinks.github}
@@ -40,18 +52,6 @@ export default function socialMedia() {
               rel="noopener noreferrer"
           >
             <i className="fas fa-envelope"></i>
-            <span></span>
-          </a>
-      ) : null}
-
-      {socialMediaLinks.scholar ? (
-          <a
-              href={socialMediaLinks.scholar}
-              className="icon-button scholar"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-google-scholar"></i>
             <span></span>
           </a>
       ) : null}
