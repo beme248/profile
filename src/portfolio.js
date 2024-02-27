@@ -25,7 +25,7 @@ const greeting = {
   subTitle: [emoji(
     "A passionate second-year machine learning Ph.D. student 🤖"
   ),
-    <span>My research focuses on advancing the optimization and resource efficiency of deep learning architectures, supervised by <a target="_blank" href="https://people.epfl.ch/martin.jaggi">Prof. Martin Jaggi</a> in the laboratory of Machine Learning and Optimization (<a target="_blank" href="https://www.epfl.ch/labs/mlo/">MLO</a>).</span>,
+    <span>My research focuses on advancing the optimization and resource efficiency of deep learning architectures, supervised by <a target="_blank" rel="noopener noreferrer" href="https://people.epfl.ch/martin.jaggi">Prof. Martin Jaggi</a> in the laboratory of Machine Learning and Optimization (<a target="_blank" rel="noopener noreferrer" href="https://www.epfl.ch/labs/mlo/">MLO</a>).</span>,
     emoji('In the past I gained extensive software engineering experience in developing data processing and management platforms 👩‍💻.')],
   resumeLink:
     "", // Set to empty to hide the button
@@ -35,13 +35,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/beme248",
+  linkedin: "https://www.linkedin.com/in/bettina-messmer-627722115",
+  gmail: "bettina.messmer@epfl.ch",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
