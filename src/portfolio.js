@@ -25,7 +25,7 @@ const greeting = {
   subTitle: [emoji(
     "A passionate second-year machine learning Ph.D. student 🤖"
   ),
-      emoji('My research focuses on advancing the optimization and resource efficiency of deep learning architectures, supervised by Prof. Martin Jaggi in the laboratory of Machine Learning and Optimization.'),
+    <span>My research focuses on advancing the optimization and resource efficiency of deep learning architectures, supervised by <a target="_blank" href="https://people.epfl.ch/martin.jaggi">Prof. Martin Jaggi</a> in the laboratory of Machine Learning and Optimization (<a target="_blank" href="https://www.epfl.ch/labs/mlo/">MLO</a>).</span>,
     emoji('I have extensive software engineering experience in data processing and managing platforms 👩‍💻.')],
   resumeLink:
     "", // Set to empty to hide the button
