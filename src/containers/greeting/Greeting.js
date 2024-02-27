@@ -38,7 +38,7 @@ export default function Greeting() {
                     >
                         {subTitle}
                     </p>
-                })};
+                })}
 
               <SocialMedia/>
               <div className="button-greeting-div">
