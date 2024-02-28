@@ -42,7 +42,7 @@ export default function Greeting() {
               <SocialMedia/>
             </div>
           </div>
-          <div className="greeting-image-div">
+          <div className="greeting-image-div robo-pic">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
