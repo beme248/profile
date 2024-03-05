@@ -32,8 +32,8 @@
     "firebase:login": "firebase login",
     "firebase:init": "firebase init",
     "// ": "special build for firebase without /profile",
-    "firebase:build": "npm run build",
-    "firebase:deploy": "firebase deploy"
+    "firebase:build": "npm run build && node scripts/replacePaths.js",
+    "firebase:deploy": "npm run firebase:build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
