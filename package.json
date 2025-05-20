@@ -30,10 +30,11 @@
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
     "firebase:login": "firebase login",
+    "firebase:reauth": "firebase login --reauth",
     "firebase:init": "firebase init",
     "// ": "special build for firebase without /profile",
     "firebase:build": "npm run build && node scripts/replacePaths.js",
-    "firebase:deploy": "npm run firebase:build && firebase deploy"
+    "firebase:deploy": "npm run firebase:reauth && npm run firebase:build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
