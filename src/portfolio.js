@@ -220,8 +220,23 @@ const achievementSection = {
             authors: [{name: 'Bettina Messmer*', bold: true}, {name: 'Vinko Sabolčec*'}, {name: 'Martin Jaggi'}],
             footerLink: [
                 {
-                    name: "Preprint (2025)",
+                    name: "ICLR Workshop DATA-FM (2025)",
                     url: "https://arxiv.org/pdf/2502.10361"
+                },
+            ]
+        },
+        {
+            title: "On-device collaborative language modeling via a mixture of generalists and specialists",
+            subtitle:
+                "This paper presents CoMiGS, an on-device collaborative learning framework that leverages a mixture of shared generalist and local specialist expert, effectively addressing heterogeneity in both user data and computational resources in a collaborative environment.",
+            authors: [{name: 'Dongyang Fan*'}, {
+                name: 'Bettina Messmer*',
+                bold: true
+            }, {name: 'Nikita Doikov'}, {name: 'Martin Jaggi'}],
+            footerLink: [
+                {
+                    name: "ICLR Workshop MCDC (2025)",
+                    url: "https://arxiv.org/pdf/2409.13931"
                 },
             ]
         },
@@ -232,23 +247,8 @@ const achievementSection = {
             authors: [{name: 'Atli Kosson'}, {name: 'Bettina Messmer', bold: true}, {name: 'Martin Jaggi'}],
             footerLink: [
                 {
-                    name: "Neurips (2024)",
+                    name: "NeurIPS (2024)",
                     url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/059445c2d5b3ef918079851628fef1d6-Paper-Conference.pdf"
-                },
-            ]
-        },
-        {
-            title: "On-device collaborative language modeling via a mixture of generalists and specialists",
-            subtitle:
-                "This paper presents CoMiGS, an on-device collaborative learning framework that leverages a mixture of shared generalist and local specialist expert, effectively addressing heterogeneity in both user data and computational resources in a collaborative environment.",
-            authors: [{name: 'Dongyang Fan'}, {
-                name: 'Bettina Messmer',
-                bold: true
-            }, {name: 'Nikita Doikov'}, {name: 'Martin Jaggi'}],
-            footerLink: [
-                {
-                    name: "Preprint (2024)",
-                    url: "https://arxiv.org/pdf/2409.13931"
                 },
             ]
         },
@@ -259,7 +259,7 @@ const achievementSection = {
             authors: [{name: 'Dongyang Fan*'}, {name: 'Bettina Messmer*', bold: true}, {name: 'Martin Jaggi'}],
             footerLink: [
                 {
-                    name: "Preprint (2024)",
+                    name: "ICLR Workshop ME-FoMo (2024)",
                     url: "https://arxiv.org/abs/2402.13089"
                 },
             ]
@@ -271,7 +271,7 @@ const achievementSection = {
             authors: [{name: 'Atli Kosson*'}, {name: 'Bettina Messmer*', bold: true}, {name: 'Martin Jaggi'}],
             footerLink: [
                 {
-                    name: "Preprint (2023)",
+                    name: "ICML (2024)",
                     url: "https://arxiv.org/abs/2305.17212"
                 },
             ]
