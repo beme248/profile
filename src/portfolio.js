@@ -214,6 +214,21 @@ const achievementSection = {
 
     achievementsCards: [
         {
+            title: "FineWeb2: One Pipeline to Scale Them All--Adapting Pre-Training Data Processing to Every Language",
+            subtitle:
+                "This work presents a new pipeline for curating pre-training datasets, adaptable to any language; its design choices were validated through extensive ablation before being scaled to create FineWeb2, a massive multilingual release for over 1000 languages.",
+            authors: [{name: 'Guilherme Penedo'}, {name: 'Hynek Kydlíček'}, {name: 'Vinko Sabolčec'}, {
+                name: 'Bettina Messmer',
+                bold: true
+            }, {name: 'Negar Foroutan'}, {name: 'Amir Hossein Kargaran'}, {name: 'Colin Raffel'}, {name: 'Martin Jaggi'}, {name: 'Leandro Von Werra'}, {name: 'Thomas Wolf'}],
+            footerLink: [
+                {
+                    name: "arXiv (2025)",
+                    url: "https://arxiv.org/abs/2506.20920"
+                },
+            ]
+        },
+        {
             title: "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
             subtitle:
                 "This work introduces a model-based data selection framework to enhance multilingual LLM pretraining and release high quality dataset in 20 languages.",
@@ -235,7 +250,7 @@ const achievementSection = {
             }, {name: 'Nikita Doikov'}, {name: 'Martin Jaggi'}],
             footerLink: [
                 {
-                    name: "ICLR Workshop MCDC (2025)",
+                    name: "ICML (2025)",
                     url: "https://arxiv.org/pdf/2409.13931"
                 },
             ]
