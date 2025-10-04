@@ -214,6 +214,21 @@ const achievementSection = {
 
     achievementsCards: [
         {
+            title: "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+            subtitle:
+                "A fully open, transparent, multilingual language model.",
+            authors: [{
+                name: 'Part of the Apertus core team.',
+                bold: true
+            }],
+            footerLink: [
+                {
+                    name: "arXiv (2025)",
+                    url: "https://arxiv.org/abs/2509.14233"
+                },
+            ]
+        },
+        {
             title: "FineWeb2: One Pipeline to Scale Them All--Adapting Pre-Training Data Processing to Every Language",
             subtitle:
                 "This work presents a new pipeline for curating pre-training datasets, adaptable to any language; its design choices were validated through extensive ablation before being scaled to create FineWeb2, a massive multilingual release for over 1000 languages.",
