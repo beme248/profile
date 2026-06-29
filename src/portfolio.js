@@ -240,7 +240,7 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "DATA-FM Workshop (2026)",
-                    url: "https://arxiv.org/abs/2412.18341"
+                    url: "https://arxiv.org/abs/2604.20549"
                 },
             ]
         },
