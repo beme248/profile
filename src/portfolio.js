@@ -267,7 +267,7 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "ICLR Workshop DATA-FM (2025)",
-                    url: "https://arxiv.org/pdf/2502.10361"
+                    url: "https://arxiv.org/abs/2502.10361"
                 },
             ]
         },
@@ -282,7 +282,7 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "ICML (2025)",
-                    url: "https://arxiv.org/pdf/2409.13931"
+                    url: "https://arxiv.org/abs/2409.13931"
                 },
             ]
         },
