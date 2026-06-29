@@ -254,7 +254,7 @@ const achievementSection = {
             }, {name: 'Negar Foroutan'}, {name: 'Amir Hossein Kargaran'}, {name: 'Colin Raffel'}, {name: 'Martin Jaggi'}, {name: 'Leandro Von Werra'}, {name: 'Thomas Wolf'}],
             footerLink: [
                 {
-                    name: "arXiv (2025)",
+                    name: "COLM (2025)",
                     url: "https://arxiv.org/abs/2506.20920"
                 },
             ]
