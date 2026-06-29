@@ -183,11 +183,12 @@ const workExperiences = {
             company: "EPFL",
             companylogo: require("./assets/images/epfl.png"),
             date: "2022 – Present",
-            desc: "My Ph.D. focuses on the optimization and resource efficiency of deep learning architectures. My work encompasses projects, such as:",
+            desc: "My Ph.D. focuses on resource efficiency of large language models, with a current emphasis on (multilingual) pre-training data curation. My work includes:",
             descBullets: [
                 'Investigating update dynamics of neurons',
                 'Delving into the training and design choices of Mixture of Experts (MoEs)',
-                'Exploring network architectures to identify designs that could improve future resource efficiency'
+                'Curating (multilingual) pre-training data for open data, open source LLMs (e.g., Apertus)',
+                'Building multilingual quality classifiers, including mid to low-resource languages Studying training and design choices for Mixture of Experts (MoEs)'
             ]
         },
         {
@@ -216,15 +217,30 @@ const achievementSection = {
         {
             title: "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
             subtitle:
-                "A fully open, transparent, multilingual language model.",
+                "A fully open, massively multilingual language model trained on compliant data across more than 1000 languages. I contributed to pre-training data curation and Swiss German post-training data as part of the core team.",
             authors: [{
                 name: 'Part of the Apertus core team.',
                 bold: true
             }],
             footerLink: [
                 {
-                    name: "arXiv (2025)",
+                    name: "ACL (2026)",
                     url: "https://arxiv.org/abs/2509.14233"
+                },
+            ]
+        },
+        {
+            title: "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+            subtitle:
+                "We explore cross-lingual quality classifiers to improve data selection across languages, including mid to low-resource settings.",
+            authors: [{name: 'Yassine Turki'}, {name: 'Vinko Sabolčec'}, {
+                name: 'Bettina Messmer',
+                bold: true
+            }, {name: 'Martin Jaggi'}],
+            footerLink: [
+                {
+                    name: "DATA-FM Workshop (2026)",
+                    url: "https://arxiv.org/abs/2412.18341"
                 },
             ]
         },
